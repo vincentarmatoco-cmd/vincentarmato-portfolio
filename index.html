@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vincent Armato | Portfolio</title>
+    <meta
+      name="description"
+      content="Minimal dark portfolio page for Vincent Armato, featuring sports photography work, experience, and contact information."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-glow" aria-hidden="true">
+      <span class="glow glow-1"></span>
+      <span class="glow glow-2"></span>
+    </div>
+
+    <header class="topbar-wrap">
+      <div class="topbar">
+        <a class="brand" href="#home">Vincent Armato</a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="#about">About Me</a>
+          <details class="nav-dropdown">
+            <summary>More Work</summary>
+            <div class="nav-dropdown-menu">
+              <a href="game-photos.html">Game Photos</a>
+              <a href="media-day.html">Media Day</a>
+              <a href="video.html">Video</a>
+            </div>
+          </details>
+        </nav>
+        <details class="mobile-nav">
+          <summary class="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+          </summary>
+          <div class="mobile-nav-menu">
+            <a href="#about">About Me</a>
+            <a href="game-photos.html">Game Photos</a>
+            <a href="media-day.html">Media Day</a>
+            <a href="video.html">Video</a>
+          </div>
+        </details>
+      </div>
+    </header>
+
+    <div class="site-shell">
+      <main id="home">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Creative • Chicago</p>
+            <h1>Capturing every moment.</h1>
+            <p class="lead">
+              I document the speed, emotion, and pressure of sports with a clean visual style that puts the athlete at the center.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="https://vincentarmato.myportfolio.com/photgraphy-work" target="_blank" rel="noreferrer">View Portfolio</a>
+              <a class="btn btn-secondary" href="#contact">Let’s Connect</a>
+            </div>
+          </div>
+
+          <div class="hero-card" aria-label="Featured photography preview">
+            <img
+              src="photos/hero/hero-image.jpg"
+              alt="Athlete in motion during a basketball game"
+            />
+            <div class="hero-card-content">
+              <p class="card-tag">Featured Work</p>
+              <h2>Wrestling State Championship 2026</h2>
+            </div>
+          </div>
+        </section>
+
+        <section id="work" class="section">
+          <div class="section-heading">
+            <p class="eyebrow">Selected Work</p>
+            <h2>Moments built for the spotlight.</h2>
+          </div>
+
+          <div class="work-grid">
+            <a class="work-card" href="game-photos.html">
+              <img src="photos/work/work-1.jpg" alt="Runners competing in a track and field race" class="work-image-top" />
+              <div>
+                <h3>Game Photos</h3>
+                <p>Moments from Girls State Track and Field 2026</p>
+              </div>
+            </a>
+
+            <a class="work-card" href="media-day.html">
+              <img src="photos/work/work-2.jpg" alt="Athlete portrait during media day" />
+              <div>
+                <h3>Media Day</h3>
+                <p>Boys Baseball Media Day 2025</p>
+              </div>
+            </a>
+
+            <a class="work-card" href="video.html">
+              <img src="photos/video/mens-basketball-intro/cover.jpg" alt="Men's basketball intro video thumbnail" />
+              <div>
+                <h3>Video Productions</h3>
+                <p>Men's Basketball Intro Video 2026</p>
+              </div>
+            </a>
+          </div>
+        </section>
+
+        <section id="about" class="section about-section">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>Athlete and Photographer</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-photo">
+              <img src="photos/about/about-photo.jpg" alt="Portrait of Vincent Armato" />
+            </div>
+            <div class="about-text">
+              <p>My name is Vincent Armato. I'm a first-year Supply Chain Management student at the University of Tennessee.</p>
+              <p>I've spent most of my life as an athlete, playing football and basketball for all 4 years of High School. That background is what pulled me into sports photography and videography. As the primary media contractor for St. Charles East High School, I've covered media days for nearly every team, along with state championships for various sports at other high schools. I've also worked with collegiate and professional teams, including the Windy City Bulls and NIU Huskies.</p>
+              <p>Alongside that, I run my own video production agency, BigDog Media, where I help local businesses grow their social media through video content that converts.</p>
+              <p>Being an athlete gives me a skill set most sports creatives don't have. I understand the game from the inside, which helps me capture moments and see them from the athlete's point of view.</p>
+              <p>Outside of work, I stay active by being outside and doing things like hiking, wakeboarding, snowboarding, and playing pickleball. I also really enjoy spending time with my friends and family.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something memorable.</h2>
+          </div>
+
+          <div class="contact-card">
+            <p>Available for games, media days, championship coverage, and video production.</p>
+            <div class="contact-links">
+              <a href="mailto:vincentarmato.co@gmail.com">Email</a>
+              <a href="tel:+16303382172">Phone</a>
+              <a href="https://www.instagram.com/vincent_armato" target="_blank" rel="noreferrer">Instagram</a>
+              <a href="https://www.tiktok.com/@vincent_armato" target="_blank" rel="noreferrer">TikTok</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>© 2026 Vincent Armato</p>
+      </footer>
+    </div>
+  </body>
+</html>
